@@ -8,14 +8,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
+@RequestMapping("hello")
 public class HelloWorldController {
 
     //need a controller method to show the initial HTML form
-    @RequestMapping("/showForm")
+    @RequestMapping("/showForm")  //sub mapping
     public String showForm(){
         return "helloworld-form";
     } // /WEB-INF/view/helloworld-form.jsp
-    @RequestMapping("/processForm")
+    @RequestMapping("/processForm") //sub mapping
     public String processForm(){
         return "helloworld";
     }
