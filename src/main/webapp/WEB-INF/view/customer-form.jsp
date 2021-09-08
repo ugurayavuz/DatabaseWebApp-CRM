@@ -31,6 +31,9 @@ Fill out the form. Asterisk(*) means required.
     Postal Code:  <form:input path="postalCode" placeholder="Optional" />
       <form:errors path="postalCode" cssClass="error"/>
     <br><br>
+    Course Code:  <form:input path="courseCode" placeholder="Optional" />
+    <form:errors path="courseCode" cssClass="error"/>
+    <br><br>
       <input type="submit" value="Submit">
   </form:form>
 
