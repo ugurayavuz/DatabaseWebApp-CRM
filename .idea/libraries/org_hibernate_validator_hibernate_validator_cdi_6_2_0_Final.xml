@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="org.hibernate.validator:hibernate-validator-cdi:6.2.0.Final" type="repository">
+    <properties maven-id="org.hibernate.validator:hibernate-validator-cdi:6.2.0.Final" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator-cdi/6.2.0.Final/hibernate-validator-cdi-6.2.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.2.0.Final/hibernate-validator-6.2.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.jboss.logging:jboss-logging:3.4.1.Final" type="repository">
+    <properties maven-id="org.jboss.logging:jboss-logging:3.4.1.Final" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
