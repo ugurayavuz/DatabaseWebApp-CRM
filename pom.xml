@@ -41,6 +41,11 @@
       <artifactId>spring-context</artifactId>
       <version>5.3.9</version>
     </dependency>
+    <dependency>
+      <groupId>org.hibernate.validator</groupId>
+      <artifactId>hibernate-validator</artifactId>
+      <version>6.2.0.Final</version>
+    </dependency>
   </dependencies>
 
   <build>
