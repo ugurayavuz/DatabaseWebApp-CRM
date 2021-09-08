@@ -28,6 +28,10 @@ public class CustomerController {
 
         System.out.println("Last name: |" + theCustomer.getLastName() + "|");
 
+        System.out.println("Binding result: " + theBindingResult);
+
+        System.out.println("\n\n\n\n");
+
         if(theBindingResult.hasErrors())
             return "customer-form";
         else
@@ -37,7 +41,6 @@ public class CustomerController {
     // add an initbinder ... to convert trim input strings
     // remove leading and trailing whitespace
     // resolve issue for our validation
-
     @InitBinder
     public void initBinder(WebDataBinder dataBinder){
         StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor(true);
