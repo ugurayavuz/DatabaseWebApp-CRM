@@ -18,7 +18,7 @@ public @interface CourseCode {
     //define default error message
     public String message() default "must start with CSE or EN";
 
-    //define dafult groups
+    //define default groups
     public Class<?>[] groups() default {};
 
     //define default payloads
