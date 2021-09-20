@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringMVCDemo" />
+        <module name="webCustomerTracker" />
       </profile>
     </annotationProcessing>
   </component>
