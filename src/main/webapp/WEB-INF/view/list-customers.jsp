@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="form" uri="http://java.sun.com/jsp/jstl/sql" %>
 <html>
 <head>
     <title>Customer List</title>
@@ -22,6 +23,14 @@
         </div>
         <div id="container">
             <div id="content">
+
+<%--                Put new button: Add Customer--%>
+
+                <input type="button" value="Add Customer"
+                       onclick="window.location.href='showFormForAdd'; return false;"
+                       class="add-button"
+                />
+
 <%--                Add our html table here--%>
                 <table>
                     <tr>
