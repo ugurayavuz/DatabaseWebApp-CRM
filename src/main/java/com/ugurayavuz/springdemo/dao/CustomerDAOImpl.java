@@ -1,5 +1,6 @@
 package com.ugurayavuz.springdemo.dao;
 
+import com.sun.xml.internal.rngom.digested.DEmptyPattern;
 import com.ugurayavuz.springdemo.entity.Customer;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -40,6 +41,22 @@ public class CustomerDAOImpl implements CustomerDAO{
         Session currentSession = sessionFactory.getCurrentSession();
 
         // save the customer
-        currentSession.save(theCustomer);
+        currentSession.saveOrUpdate(theCustomer);
+//        if (primaryKey/id) empty
+//                then INSERT new customer
+//        else UPDATE existing customer
     }
+
+    @Override
+    public Customer getCustomer(int theId) {
+        // get current hibernate session
+        Session currentSession = sessionFactory.getCurrentSession();
+
+        // now retrieve/read from database using primary key
+        Customer tempCustomer = currentSession.get(Customer.class, theId);
+
+        return tempCustomer;
+
+    }
+
 }
