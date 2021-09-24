@@ -13,13 +13,14 @@ table {
  
 th {
 	border-bottom:1px solid gray;
-	background:none repeat scroll 0 0 #094dc3;
+	background:none repeat scroll 0 0 rgba(57, 38, 38, 0.63);
 	padding:10px;
 	color: #FFFFFF;
+	border: 1px;
 }
 
 tr {
-	border-top:1px solid gray;
+	border-top:1px solid rgba(57, 38, 38, 0.63);
 	text-align:center;	
 }
  
@@ -27,11 +28,14 @@ tr:nth-child(even) {background: #FFFFFF}
 tr:nth-child(odd) {background: #BBBBBB}	
  
 #wrapper {width: 100%; margin-top: 0px; }
-#header {width: 70%; background: #094dc3; margin-top: 0px; padding:15px 0px 15px 15px;}
-#header h2 {width: 100%; margin:auto; color: #FFFFFF;}
+#header {width: 70%; background: rgba(57, 38, 38, 0.63);  margin-top: 0px; padding:15px 0px 15px 15px; border: 1px;
+border-radius: 5px;}
+
+#header h2 {width: 100%; margin:auto; color: #FFFFFF; align-items: center; justify-content: center; }
 #container {width: 100%; margin:auto}
 #container h3 {color: #000;}
 #container #content {margin-top: 20px;}
+#a {text-decoration: none;}
 
 .add-button {
 	border: 1px solid #888888;

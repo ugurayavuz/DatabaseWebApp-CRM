@@ -18,7 +18,9 @@
 <body>
         <div id="wrapper">
             <div id="header">
-                <h2>CRM - Customer Relationship Manager</h2>
+                <a href="${pageContext.request.contextPath}/customer/list" id="a">
+                    <h2>CRM - Customer Relationship Manager</h2>
+                </a>
             </div>
         </div>
         <div id="container">
@@ -87,10 +89,6 @@
                             </td>
                         </tr>
                     </c:forEach>
-
-                    <p>
-                        <a href="${pageContext.request.contextPath}/customer/list">Back to list</a>
-                    </p>
 
                 </table>
 
